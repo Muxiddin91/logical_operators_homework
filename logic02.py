@@ -11,4 +11,4 @@ def main(a,b):
         return True
     else:
         return False
-print(main(2,-2))
+print(main(2,92))
