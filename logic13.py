@@ -6,4 +6,10 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x=a%10
+    y=a//10
+    if (x+y)%2==0:
+        return True
+    else:
+        return False
+print(main(23))
