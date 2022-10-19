@@ -6,4 +6,8 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    if (a>=10000 and a<=99999) or (a<=-10000 and a>=-99999):
+        return True
+    else:
+        return False
+print(main(-13445))
